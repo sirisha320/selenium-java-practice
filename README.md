@@ -25,6 +25,7 @@ Webelement Femaleradiobutton = wait.util(expectedcondition.visibilityofelementlo
 if(!femaleradiobutton.isselected()){
 femaleradiobutton.select();
 wait.util(expectedcondition.elementtobeclickable(By.id("place order")).click();
+String actualmessage = "Success Message";
 webelement successmessage = wait.util(expectedcondition.visibilityofelementlocated(By.id("success message")).gettext();
 for(actualmessage.euqals().successmessage());
 if(!actualmessage = successmessage){
@@ -33,9 +34,9 @@ System.out.println("Order placed");
 else{
 System.out.println("order failed");
 }
-catch(Exception e);
-wait.util(Expectedcondition.visibilityofelementlocated(By.id("text")).getmessage();
-for(e.errormessage)
+catch(Exception e){
+System.out.println("Exception : +e.gettext());
+}
 
 takescreenshot = driver.("success message);
 
